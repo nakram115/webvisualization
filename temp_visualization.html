@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Web Visualization DashBoard </title>
+
+  <!-- Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+        
+
+  <div class="container">
+    <section class= "row">
+
+        <nav class="navbar">
+          <ul>
+            <li>
+              <a href="#">Plots</a>
+            </li>
+            <li>
+              <a href="#">Comparison</a>
+            </li>
+            <li>
+              <a href="#">Data</a>
+            </li>
+          </ul>
+          <select id="nav-select">
+            <option value="home">Plots</option>
+            <option value="about">Comparison</option>
+            <option value="portfolio">Data</option>
+          </select>
+          <div class="clearfix"></div>
+        </nav>
+    </section>
+</div>
+    <!-- Creates the Overall Grid -->
+       <!-- Start of container -->
+       <div class="container">
+            <section class="row">
+              <div class="col-md-8">
+                <article class="description-content">
+                  <h1 class="description-header">Temperature</h1>
+                  <img src="C:\Users\Malik\Desktop\HTMLCSS/Lat_Temp.png" width="650" height="500">
+                    <p class="col-md-8">The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis,we first pulled data from TheOpenWeatherMap API to assemble a dataset on over 500 cities. 
+                            After assembling the dataset, we used Matplotlib to plot various aspects of the weather Vs latitude. Factors we looked at included temperature,cloudiness,windspeed, and humidity.
+                            This site provides the source data, and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
+                </article>
+              </div>
+              <div class="col-md-4">
+      
+                <!-- Start of Visualizations imageNav Area -->
+                <section id="imageNav-area">
+                  <div class="imageNav-content">
+                        <h2 class="imageNav-header">Visualizations</h2>
+                    <div id="images">
+                            <img src="C:\Users\Malik\Desktop\HTMLCSS/Lat_Temp.png" width="200" height="200">
+                            <img src="C:\Users\Malik\Desktop\HTMLCSS/Lat_Cloud.png" width="200" height="200">
+                            <img src="C:\Users\Malik\Desktop\HTMLCSS/Lat_Hum.png" width="200" height="200"> 
+                            <img src="C:\Users\Malik\Desktop\HTMLCSS/Lat_Wind.png" width="200" height="200"> 
+                    </div>
+                  </div>
+                </section>
+                <!-- End of the Visualizations imageNav Area -->
+      
+              </div>
+            </section>
+          </div>
+          <!-- End of container -->
+</body>
+</html>
+
+  
+
+
+      
+    
+

@@ -1,0 +1,35 @@
+
+body {
+    background: white;
+  }
+@media (max-width: 480px) {
+  /* .container1 {
+ 
+  } */
+
+  /* .container2 {
+ 
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: solid 2px black;
+  } */
+
+  /* .container3 {
+ 
+  } */
+
+  /* .container4{
+  
+  } */
+
+  /* .box-5 {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    background: none;
+    margin-left: 300px;
+  } */
+}
